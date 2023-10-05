@@ -71,51 +71,37 @@ a {
     flex-direction: column;
     align-items: center;
     color: black;
-
+    padding: 64px 128px 128px;
 }
 
 .top-middle-content {
     display: flex;
-    align-items: center;
+    align-items: baseline;
     font-size: 14px;
     justify-content: space-between;
-    padding: 12px;
+    gap: 16px;
+    flex-wrap: wrap;
 }
 
-.one {
-    display: flex;
-    flex-direction: column;
-    padding: 12px;
-    padding-top: 30px;
-}
-
-.two {
-    display: flex;
-    flex-direction: column;
-    padding: 12px;
-}
-
-.three {
-    display: flex;
-    flex-direction: column;
-    padding: 12px;
-}
-
+.one,
+.two,
+.three,
 .four {
     display: flex;
     flex-direction: column;
-    padding: 12px;
-    padding-top: 2px;
+    height: auto;
+    width: 200px;
 }
 
 .un {
     height: auto;
     width: 200px;
-    height: auto;
 }
 
 .upword {
     font-size: 36px;
+    font-weight: bold;
+    padding-bottom: 64px;
 }
 
 .deux {
@@ -138,13 +124,17 @@ a {
     font-weight: bold;
 }
 
+.quote {
+    font-style: italic;
+}
+
 .bottom {
     display: flex;
     padding: 40px;
     background-color: #1f2937;
     justify-content: center;
     justify-content: space-between;
-    margin: 40px;
+    margin: 128px;
 }
 
 .join {
