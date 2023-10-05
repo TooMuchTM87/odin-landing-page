@@ -1,0 +1,170 @@
+body {
+   display: flex;
+   flex-direction: column;
+   margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.logo {
+    font-weight: bolder;
+    font-size: 24px;
+    color: white;
+    font-family: italic 'Times New Roman';
+}
+
+.Top {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.top-words {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    color: white;
+}
+
+.tt {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.secondary-text {
+    font-size: 18px;
+}
+
+.top-button {
+    color: white;
+    background-color: #3882f6;
+    border-radius: 8px;
+    padding: 5px 20px;
+    
+}
+
+.start {
+    padding: 10px 120px 120px;
+    background-color: #1f2937;
+
+}
+
+.top-middle {
+    display: flex;
+    background-color: ;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+
+}
+
+.top-middle-content {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    justify-content: space-between;
+    padding: 12px;
+}
+
+.one {
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    padding-top: 30px;
+}
+
+.two {
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+}
+
+.three {
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+}
+
+.four {
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    padding-top: 2px;
+}
+
+.un {
+    height: auto;
+    width: 200px;
+    height: auto;
+}
+
+.upword {
+    font-size: 36px;
+}
+
+.deux {
+    padding: 30px;
+}
+
+.middle {
+    background-color: #3882f6;
+    display: flex;
+    flex-direction: column;
+    font-size: 48px;
+    justify-content: center;
+    padding: 80px;
+    font-style: italic, times;
+}
+
+.bolt {
+    display: flex;
+    justify-content: end;
+    font-weight: bold;
+}
+
+.bottom {
+    display: flex;
+    padding: 40px;
+    background-color: #1f2937;
+    justify-content: center;
+    justify-content: space-between;
+    margin: 40px;
+}
+
+.join {
+background-color: #1f2937;
+color: white;
+padding-top: 8px;
+}
+
+.sign {
+    display: flex;
+    border-radius: 20px;
+    border-color: #1f2937;
+    padding: 8px;
+}
+
+.odin {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
